@@ -9,7 +9,7 @@ public class Main {
 
 		// Create GUI
 		JTextField textField = new JTextField();
-		textField.addKeyListener(new KeyanoListener());
+		textField.addKeyListener(new KeyanoListener()); // Use our listener
 		JFrame jframe = new JFrame();
 		jframe.add(textField);
 		jframe.setSize(400, 350);
